@@ -23,6 +23,8 @@
 		4A0B739124445044000C611A /* LinkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739024445044000C611A /* LinkListTests.swift */; };
 		4A0B739324446CFA000C611A /* HashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739224446CFA000C611A /* HashMap.swift */; };
 		4A0B739524446E5D000C611A /* HashMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739424446E5D000C611A /* HashMapTests.swift */; };
+		4A0B739724455F27000C611A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739624455F27000C611A /* Stack.swift */; };
+		4A0B73992445630F000C611A /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B73982445630F000C611A /* StackTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		4A0B739024445044000C611A /* LinkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkListTests.swift; sourceTree = "<group>"; };
 		4A0B739224446CFA000C611A /* HashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMap.swift; sourceTree = "<group>"; };
 		4A0B739424446E5D000C611A /* HashMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMapTests.swift; sourceTree = "<group>"; };
+		4A0B739624455F27000C611A /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4A0B73982445630F000C611A /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,7 @@
 				4A0B737224442831000C611A /* Algorithm.h */,
 				4A0B737324442831000C611A /* Info.plist */,
 				4A0B738E24442857000C611A /* LinkList.swift */,
+				4A0B739624455F27000C611A /* Stack.swift */,
 				4A0B739224446CFA000C611A /* HashMap.swift */,
 			);
 			path = Algorithm;
@@ -190,6 +195,7 @@
 				4A0B737F24442831000C611A /* AlgorithmTests.swift */,
 				4A0B739024445044000C611A /* LinkListTests.swift */,
 				4A0B739424446E5D000C611A /* HashMapTests.swift */,
+				4A0B73982445630F000C611A /* StackTests.swift */,
 				4A0B738124442831000C611A /* Info.plist */,
 			);
 			path = AlgorithmTests;
@@ -389,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0B739324446CFA000C611A /* HashMap.swift in Sources */,
+				4A0B739724455F27000C611A /* Stack.swift in Sources */,
 				4A0B738F24442857000C611A /* LinkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0B73992445630F000C611A /* StackTests.swift in Sources */,
 				4A0B738024442831000C611A /* AlgorithmTests.swift in Sources */,
 				4A0B739524446E5D000C611A /* HashMapTests.swift in Sources */,
 				4A0B739124445044000C611A /* LinkListTests.swift in Sources */,

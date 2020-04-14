@@ -106,6 +106,11 @@ public struct LinkList<T> {
         }
     }
     
+    public mutating func clear() {
+        head = nil
+        trail = nil
+    }
+    
     func printList() {
         print(description)
     }
