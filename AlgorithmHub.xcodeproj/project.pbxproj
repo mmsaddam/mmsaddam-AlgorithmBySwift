@@ -27,6 +27,8 @@
 		4A0B73992445630F000C611A /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B73982445630F000C611A /* StackTests.swift */; };
 		4A0B739B2445C384000C611A /* PostFixCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739A2445C384000C611A /* PostFixCalculator.swift */; };
 		4A0B739F2445CBCA000C611A /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739E2445CBCA000C611A /* CalculatorTests.swift */; };
+		4A41F54C244818780006ED66 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54B244818780006ED66 /* Queue.swift */; };
+		4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54D24481B080006ED66 /* QueueTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		4A0B73982445630F000C611A /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		4A0B739A2445C384000C611A /* PostFixCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFixCalculator.swift; sourceTree = "<group>"; };
 		4A0B739E2445CBCA000C611A /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		4A41F54B244818780006ED66 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4A41F54D24481B080006ED66 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,7 @@
 				4A0B739624455F27000C611A /* Stack.swift */,
 				4A0B739224446CFA000C611A /* HashMap.swift */,
 				4A0B739A2445C384000C611A /* PostFixCalculator.swift */,
+				4A41F54B244818780006ED66 /* Queue.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				4A0B739024445044000C611A /* LinkListTests.swift */,
 				4A0B739424446E5D000C611A /* HashMapTests.swift */,
 				4A0B73982445630F000C611A /* StackTests.swift */,
+				4A41F54D24481B080006ED66 /* QueueTests.swift */,
 				4A0B739E2445CBCA000C611A /* CalculatorTests.swift */,
 				4A0B738124442831000C611A /* Info.plist */,
 			);
@@ -400,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A41F54C244818780006ED66 /* Queue.swift in Sources */,
 				4A0B739324446CFA000C611A /* HashMap.swift in Sources */,
 				4A0B739B2445C384000C611A /* PostFixCalculator.swift in Sources */,
 				4A0B739724455F27000C611A /* Stack.swift in Sources */,
@@ -412,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0B73992445630F000C611A /* StackTests.swift in Sources */,
+				4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */,
 				4A0B738024442831000C611A /* AlgorithmTests.swift in Sources */,
 				4A0B739F2445CBCA000C611A /* CalculatorTests.swift in Sources */,
 				4A0B739524446E5D000C611A /* HashMapTests.swift in Sources */,

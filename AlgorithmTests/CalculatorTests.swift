@@ -22,7 +22,7 @@ class CalculatorTests: XCTestCase {
         /// Evaluation
         // 4 + 3 = 7
         // 7 - 2 = 5
-        XCTAssertEqual(try? calculator?.evaluate(expression1), 1)
+        XCTAssertEqual(try? calculator?.evaluate(expression1), 5)
         
         let expression2 = "10 3 10 % +"
         /// 10 % 3 = 1
