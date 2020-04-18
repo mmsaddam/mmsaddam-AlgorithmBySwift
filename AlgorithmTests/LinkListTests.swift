@@ -63,6 +63,19 @@ class LinkListTests: XCTestCase {
             XCTFail("Could not find node at index 3")
         }
         
+        list?.clear()
+        list?.addFirst(2)
+        
+        if let node = try? list?.nodeAtIndex(1) {
+            list?.addBefore(node, item: 1)
+            XCTAssertEqual(list?.count, 2)
+            XCTAssertEqual(try? list?.nodeAtIndex(1)?.value, 1)
+            XCTAssertEqual(try? list?.nodeAtIndex(2)?.value, 2)
+            
+        } else {
+            XCTFail("Could not find node at index 3")
+        }
+        
     }
     
     func testAddAfter() {

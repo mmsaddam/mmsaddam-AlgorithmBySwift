@@ -86,19 +86,28 @@ public struct LinkList<T: Comparable> {
     }
     
     public mutating func addBefore(_ node: Node<T>, item: T) {
-        var current = head
         
-        while current != nil && current?.next != node {
-            current = current?.next
-        }
-        
-        if current == nil {
-            addLast(item)
-        } else {
+        if head == node {
             let newNode = Node(value: item)
-            newNode.next = current?.next
-            current?.next = newNode
+            newNode.next = head
+            head = newNode
+        } else {
+            var current = head
+            
+            while current != nil && current?.next != node {
+                current = current?.next
+            }
+            
+            if current == nil {
+                addLast(item)
+            } else {
+                let newNode = Node(value: item)
+                newNode.next = current?.next
+                current?.next = newNode
+            }
         }
+      print(#function)
+        
     }
    
     public mutating func addAfter(_ node: Node<T>, item: T) {
