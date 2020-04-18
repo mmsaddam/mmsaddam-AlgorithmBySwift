@@ -8,16 +8,24 @@
 
 import Foundation
 
-public struct LinkList<T> {
+public struct LinkList<T: Comparable> {
+    enum LinkListError: String, Error {
+        case empty
+    }
     
-   public class Node<T> {
+    public class Node<T: Comparable>: Equatable {
         var value: T
         var next: Node<T>?
         
         init(value: T) {
             self.value = value
         }
+        
+        public static func == (lhs: Node, rhs: Node) -> Bool {
+            return lhs.value == rhs.value && lhs.next?.value == rhs.next?.value
+        }
     }
+   
     
     private(set) var head: Node<T>?
     private(set) var trail: Node<T>?
@@ -59,6 +67,56 @@ public struct LinkList<T> {
             head = newNode
         }
     }
+    
+    public func nodeAtIndex(_ index: Int) throws -> Node<T>? {
+        if head == nil {
+            throw LinkListError.empty
+        } else if index > count  {
+            return trail
+        }
+        
+        var node = head
+        var i = 1
+        while node != nil && i < index {
+            node = node?.next
+            i += 1
+        }
+        
+        return node
+    }
+    
+    public mutating func addBefore(_ node: Node<T>, item: T) {
+        var current = head
+        
+        while current != nil && current?.next != node {
+            current = current?.next
+        }
+        
+        if current == nil {
+            addLast(item)
+        } else {
+            let newNode = Node(value: item)
+            newNode.next = current?.next
+            current?.next = newNode
+        }
+    }
+   
+    public mutating func addAfter(_ node: Node<T>, item: T) {
+           var current = head
+           
+           while current != nil && current != node {
+               current = current?.next
+           }
+           
+           if current == nil {
+               addLast(item)
+           } else {
+               let newNode = Node(value: item)
+               newNode.next = current?.next
+               current?.next = newNode
+           }
+       }
+    
     
   public mutating func removeFirst() -> T? {
         defer {
