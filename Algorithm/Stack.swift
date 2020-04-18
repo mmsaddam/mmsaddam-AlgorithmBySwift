@@ -9,7 +9,7 @@
 import Foundation
 
 
-public struct Stack<T> {
+public struct Stack<T: Comparable> {
     enum Container {
         case array, linkList
     }
