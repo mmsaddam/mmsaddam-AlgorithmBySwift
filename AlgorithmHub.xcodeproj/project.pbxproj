@@ -29,6 +29,8 @@
 		4A0B739F2445CBCA000C611A /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739E2445CBCA000C611A /* CalculatorTests.swift */; };
 		4A41F54C244818780006ED66 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54B244818780006ED66 /* Queue.swift */; };
 		4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54D24481B080006ED66 /* QueueTests.swift */; };
+		4A41F560244C091B0006ED66 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F55F244C091B0006ED66 /* BinaryTree.swift */; };
+		4A41F562244C15240006ED66 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F561244C15240006ED66 /* BinarySearchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		4A0B739E2445CBCA000C611A /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		4A41F54B244818780006ED66 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4A41F54D24481B080006ED66 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
+		4A41F55F244C091B0006ED66 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		4A41F561244C15240006ED66 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				4A0B739224446CFA000C611A /* HashMap.swift */,
 				4A0B739A2445C384000C611A /* PostFixCalculator.swift */,
 				4A41F54B244818780006ED66 /* Queue.swift */,
+				4A41F55F244C091B0006ED66 /* BinaryTree.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				4A0B73982445630F000C611A /* StackTests.swift */,
 				4A41F54D24481B080006ED66 /* QueueTests.swift */,
 				4A0B739E2445CBCA000C611A /* CalculatorTests.swift */,
+				4A41F561244C15240006ED66 /* BinarySearchTests.swift */,
 				4A0B738124442831000C611A /* Info.plist */,
 			);
 			path = AlgorithmTests;
@@ -408,6 +414,7 @@
 			files = (
 				4A41F54C244818780006ED66 /* Queue.swift in Sources */,
 				4A0B739324446CFA000C611A /* HashMap.swift in Sources */,
+				4A41F560244C091B0006ED66 /* BinaryTree.swift in Sources */,
 				4A0B739B2445C384000C611A /* PostFixCalculator.swift in Sources */,
 				4A0B739724455F27000C611A /* Stack.swift in Sources */,
 				4A0B738F24442857000C611A /* LinkList.swift in Sources */,
@@ -419,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0B73992445630F000C611A /* StackTests.swift in Sources */,
+				4A41F562244C15240006ED66 /* BinarySearchTests.swift in Sources */,
 				4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */,
 				4A0B738024442831000C611A /* AlgorithmTests.swift in Sources */,
 				4A0B739F2445CBCA000C611A /* CalculatorTests.swift in Sources */,
