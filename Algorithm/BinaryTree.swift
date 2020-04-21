@@ -53,6 +53,86 @@ public struct BinaryTree<T: Comparable> {
         }
     }
     
+    public func contain(_ value: T) -> Bool {
+        var parent: Node<T>?
+        let node = findWithParent(value, parent: &parent)
+        return node != nil
+    }
+    
+    public mutating func remove(_ value: T) -> Bool {
+        var parent: Node<T>?
+        var current: Node<T>?
+        current = findWithParent(value, parent: &parent)
+        if current == nil {
+            /// does not exist node
+            return false
+        }
+        count -= 1
+        
+        /// Case 1: If current has no right child, replace current's left with current
+        if current?.right == nil {
+            if parent == nil {
+                /// Head to remove
+                root = current?.left
+            } else {
+                if parent!.value > current!.value {
+                    parent?.left = current?.left
+                } else {
+                    parent?.right = current?.left
+                }
+            }
+        }
+            /**
+             Case 2: If current right has no left child, replace current's right with current
+             */
+        else if current?.right?.left == nil {
+            current?.right?.left = current?.left
+            if parent == nil {
+                root = current?.right
+            } else {
+                if parent!.value > current!.value {
+                    parent?.left = current?.right
+                } else {
+                    parent?.right = current?.right
+                }
+            }
+        }
+            /**
+             Case 3: If current right has a left child, then replace the current with current's right child's left most child
+             */
+        else {
+            /// Find the right left most child
+            var leftMost = current?.right?.left
+            var leftMostParent = current?.right
+            
+            while leftMost?.left != nil {
+                leftMostParent = leftMost
+                leftMost = leftMost?.left
+            }
+            
+            /// parent's left subtree become the leftmost's right subtree
+            leftMostParent?.left = leftMost?.right
+            
+            // assign left most right and left to current's left and right
+            leftMost?.left = current?.left
+            leftMost?.right = current?.right
+            
+            if parent == nil {
+                root = leftMost
+            } else {
+                /// if parent grater than current value
+                /// make left most child the parent's left
+                if parent!.value > current!.value {
+                    parent?.left = leftMost
+                } else {
+                    parent?.right = leftMost
+                }
+            }
+        }
+        
+        return true
+    }
+    
     private func findWithParent(_ value: T, parent: inout Node<T>?) -> Node<T>? {
           var current = root
           parent = nil
