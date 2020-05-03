@@ -26,6 +26,22 @@ class AlgorithmHubTests: XCTestCase {
         XCTAssertEqual(8, frogRiverOneSolution(5, A: [1,3,1,4,2,3,4,1,5]))
     }
     
+    func testMissingInteger() {
+        XCTAssertEqual(4, missingIntegerSolution([1,2,3]))
+        XCTAssertEqual(5, missingIntegerSolution([1, 3, 6, 4, 1, 2]))
+    }
+    
+    func testPermCheck() {
+        XCTAssertEqual(1, permCheckSolution([4, 1, 3, 2]))
+        XCTAssertEqual(0, permCheckSolution([4, 1, 3]))
+    }
+    
+    func testMaxCounters() {
+        XCTAssertEqual([3,2,2,4,2], maxCountersSolution(5, A: [3,4,4,6,1,4,4]))
+        XCTAssertEqual([1,0,2,4,0], maxCountersSolution(5, A: [3,4,4,3,1,4,4]))
+        
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }

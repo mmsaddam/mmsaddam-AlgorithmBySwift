@@ -29,6 +29,9 @@
 		4A0B739F2445CBCA000C611A /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B739E2445CBCA000C611A /* CalculatorTests.swift */; };
 		4A3566B4245D891300616B2D /* MaxBinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3566B3245D891300616B2D /* MaxBinaryGap.swift */; };
 		4A3566B6245D8DC500616B2D /* FrogRiverOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3566B5245D8DC500616B2D /* FrogRiverOne.swift */; };
+		4A3566B8245DB2E200616B2D /* MissingInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3566B7245DB2E200616B2D /* MissingInteger.swift */; };
+		4A3566BA245E72F100616B2D /* MaxCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3566B9245E72F100616B2D /* MaxCounters.swift */; };
+		4A3566BC245E886500616B2D /* PermCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3566BB245E886500616B2D /* PermCheck.swift */; };
 		4A41F54C244818780006ED66 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54B244818780006ED66 /* Queue.swift */; };
 		4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54D24481B080006ED66 /* QueueTests.swift */; };
 		4A41F560244C091B0006ED66 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F55F244C091B0006ED66 /* BinaryTree.swift */; };
@@ -108,6 +111,9 @@
 		4A0B739E2445CBCA000C611A /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		4A3566B3245D891300616B2D /* MaxBinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxBinaryGap.swift; sourceTree = "<group>"; };
 		4A3566B5245D8DC500616B2D /* FrogRiverOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogRiverOne.swift; sourceTree = "<group>"; };
+		4A3566B7245DB2E200616B2D /* MissingInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingInteger.swift; sourceTree = "<group>"; };
+		4A3566B9245E72F100616B2D /* MaxCounters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCounters.swift; sourceTree = "<group>"; };
+		4A3566BB245E886500616B2D /* PermCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermCheck.swift; sourceTree = "<group>"; };
 		4A41F54B244818780006ED66 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4A41F54D24481B080006ED66 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		4A41F55F244C091B0006ED66 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 				4A0B734D244427D0000C611A /* ViewController.swift */,
 				4A3566B3245D891300616B2D /* MaxBinaryGap.swift */,
 				4A3566B5245D8DC500616B2D /* FrogRiverOne.swift */,
+				4A3566B7245DB2E200616B2D /* MissingInteger.swift */,
+				4A3566BB245E886500616B2D /* PermCheck.swift */,
+				4A3566B9245E72F100616B2D /* MaxCounters.swift */,
 				4A0B734F244427D0000C611A /* Main.storyboard */,
 				4A0B7352244427D2000C611A /* Assets.xcassets */,
 				4A0B7354244427D2000C611A /* LaunchScreen.storyboard */,
@@ -401,8 +410,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3566B4245D891300616B2D /* MaxBinaryGap.swift in Sources */,
+				4A3566B8245DB2E200616B2D /* MissingInteger.swift in Sources */,
 				4A0B734E244427D0000C611A /* ViewController.swift in Sources */,
 				4A0B734A244427D0000C611A /* AppDelegate.swift in Sources */,
+				4A3566BC245E886500616B2D /* PermCheck.swift in Sources */,
+				4A3566BA245E72F100616B2D /* MaxCounters.swift in Sources */,
 				4A3566B6245D8DC500616B2D /* FrogRiverOne.swift in Sources */,
 				4A0B734C244427D0000C611A /* SceneDelegate.swift in Sources */,
 			);
