@@ -42,6 +42,15 @@ class AlgorithmHubTests: XCTestCase {
         
     }
     
+    func testCountDiv() {
+//        A = B in {0,1}, K = 11
+//        A = 10, B = 10, K in {5,7,20}
+        XCTAssertEqual(5, countDiv(10, B: 10, K: 2))
+        XCTAssertEqual(1, countDiv(10, B: 10, K: 7))
+        XCTAssertEqual(3, countDiv(5, B: 11, K: 2))
+        
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
