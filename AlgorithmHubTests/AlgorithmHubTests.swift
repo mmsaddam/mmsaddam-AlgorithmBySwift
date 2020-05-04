@@ -51,6 +51,11 @@ class AlgorithmHubTests: XCTestCase {
         
     }
     
+    func testGenomicRange() {
+        XCTAssertEqual([2, 4, 1], genomicRangeQuery("CAGCCTA", P: [2,5,0], Q: [4,5,6]))
+        XCTAssertEqual([2, 2, 1], genomicRangeQuery("CAGCCTA", P: [0,2,6], Q: [0,5,6]))
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
