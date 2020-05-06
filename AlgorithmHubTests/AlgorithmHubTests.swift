@@ -15,6 +15,11 @@ class AlgorithmHubTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
+    func testTapeEquilibrium() {
+        XCTAssertEqual(1, tapeEquilibrium([3, 1, 2, 4, 3]))
+        XCTAssertEqual(1, tapeEquilibrium([-4, 3]))
+    }
+    
     func testBinaryGap() {
         XCTAssertEqual(0, findBinaryGap(32))
         XCTAssertEqual(5, findBinaryGap(1041)) 
@@ -54,6 +59,19 @@ class AlgorithmHubTests: XCTestCase {
     func testGenomicRange() {
         XCTAssertEqual([2, 4, 1], genomicRangeQuery("CAGCCTA", P: [2,5,0], Q: [4,5,6]))
         XCTAssertEqual([2, 2, 1], genomicRangeQuery("CAGCCTA", P: [0,2,6], Q: [0,5,6]))
+    }
+    
+    func testMinAvgTwoSlice() {
+        XCTAssertEqual(1, minAvgTwoSlice([4, 2, 2, 5, 1, 5, 8]))
+    }
+    
+    func testPassingCar() {
+        XCTAssertEqual(5, passingCarSolution2([0, 1, 0, 1, 1]))
+    }
+    
+    func testFindDistinct() {
+        XCTAssertEqual(3, findDistinct([2, 1, 1, 2, 3, 1]))
+        XCTAssertEqual(3, findDistinct2([2, 1, 1, 2, 3, 1]))
     }
     
     override func tearDown() {
