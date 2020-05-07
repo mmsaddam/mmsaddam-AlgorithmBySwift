@@ -42,6 +42,7 @@
 		4A41F54E24481B080006ED66 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F54D24481B080006ED66 /* QueueTests.swift */; };
 		4A41F560244C091B0006ED66 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F55F244C091B0006ED66 /* BinaryTree.swift */; };
 		4A41F562244C15240006ED66 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F561244C15240006ED66 /* BinarySearchTests.swift */; };
+		4A66EB312463C174006D6DE0 /* ArrayTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 		4A41F54D24481B080006ED66 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		4A41F55F244C091B0006ED66 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		4A41F561244C15240006ED66 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTriangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				4A3566CF2462C45300616B2D /* TapeEquilibrium.swift */,
 				4A3566CB2461C38500616B2D /* MinAvgTwoSlice.swift */,
 				4A3566D12462D18600616B2D /* FindDistinctCount.swift */,
+				4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */,
 				4A3566CD2462763400616B2D /* PassingCar.swift */,
 				4A0B734F244427D0000C611A /* Main.storyboard */,
 				4A0B7352244427D2000C611A /* Assets.xcassets */,
@@ -432,6 +435,7 @@
 				4A3566CE2462763400616B2D /* PassingCar.swift in Sources */,
 				4A0B734E244427D0000C611A /* ViewController.swift in Sources */,
 				4A3566D02462C45300616B2D /* TapeEquilibrium.swift in Sources */,
+				4A66EB312463C174006D6DE0 /* ArrayTriangle.swift in Sources */,
 				4A0B734A244427D0000C611A /* AppDelegate.swift in Sources */,
 				4A3566CC2461C38500616B2D /* MinAvgTwoSlice.swift in Sources */,
 				4A3566BC245E886500616B2D /* PermCheck.swift in Sources */,

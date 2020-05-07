@@ -74,6 +74,13 @@ class AlgorithmHubTests: XCTestCase {
         XCTAssertEqual(3, findDistinct2([2, 1, 1, 2, 3, 1]))
     }
     
+    func testCheckTriangle() {
+        XCTAssertEqual(true, checkTriangle([10, 2, 5, 1, 8, 20]))
+        XCTAssertEqual(false, checkTriangle([1, 5, 3]))
+        XCTAssertEqual(true, checkTriangle1([10, 2, 5, 1, 8, 20]))
+        XCTAssertEqual(false, checkTriangle1([1, 5, 3]))
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
