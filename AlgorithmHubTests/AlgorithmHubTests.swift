@@ -81,6 +81,41 @@ class AlgorithmHubTests: XCTestCase {
         XCTAssertEqual(false, checkTriangle1([1, 5, 3]))
     }
     
+    func testProperParenthesis() {
+        XCTAssertEqual(1, checkProperParenthese("{[()()]}"))
+        XCTAssertEqual(0, checkProperParenthese("([)()]"))
+    }
+    
+    func testFishAlive() {
+        XCTAssertEqual(2, Fish.solution([4,3,2,1,5], B: [0,1,0,0,0]))
+    }
+    
+    func testNesting() {
+        XCTAssertEqual(1, Nesting.solution("(()(())())"))
+        XCTAssertEqual(0, Nesting.solution("())"))
+    }
+    
+    func testDominator() {
+        var array1 = [3, 4, 3, 2, 3, -2, 3, 3]
+        
+        XCTAssertTrue([0, 1, 4, 6,7].contains(Dominator.solution(&array1)))
+        XCTAssertTrue([0, 1, 4, 6,7].contains(Dominator.solution1(&array1)))
+//        XCTAssertEqual(3, Dominator.solution1(&array1))
+        var array2 = [3, 4, 3, 2]
+        XCTAssertEqual(-1, Dominator.solution(&array2))
+//        XCTAssertEqual(-1, Dominator.solution1(&array2))
+    }
+    
+    func testEquileader() {
+        var input = [4, 3, 4, 4, 4, 2]
+        let count = Equileader.solution(&input)
+        XCTAssertTrue(count == 2)
+        
+        var input2 = [4, 4]
+        let count2 = Equileader.solution(&input2)
+        XCTAssertTrue(count2 == 1)
+    }
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }

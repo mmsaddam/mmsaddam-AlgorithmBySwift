@@ -43,6 +43,11 @@
 		4A41F560244C091B0006ED66 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F55F244C091B0006ED66 /* BinaryTree.swift */; };
 		4A41F562244C15240006ED66 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41F561244C15240006ED66 /* BinarySearchTests.swift */; };
 		4A66EB312463C174006D6DE0 /* ArrayTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */; };
+		4A66EB61246573E7006D6DE0 /* Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A66EB60246573E7006D6DE0 /* Brackets.swift */; };
+		4A66EB6324666250006D6DE0 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A66EB6224666250006D6DE0 /* Fish.swift */; };
+		4A66EB65246672CB006D6DE0 /* Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A66EB64246672CB006D6DE0 /* Nesting.swift */; };
+		4ADEEA442468571600911CF1 /* Dominator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEEA432468571600911CF1 /* Dominator.swift */; };
+		4ADEEA462469016900911CF1 /* Equileader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADEEA452469016900911CF1 /* Equileader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +137,11 @@
 		4A41F55F244C091B0006ED66 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		4A41F561244C15240006ED66 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTriangle.swift; sourceTree = "<group>"; };
+		4A66EB60246573E7006D6DE0 /* Brackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brackets.swift; sourceTree = "<group>"; };
+		4A66EB6224666250006D6DE0 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		4A66EB64246672CB006D6DE0 /* Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nesting.swift; sourceTree = "<group>"; };
+		4ADEEA432468571600911CF1 /* Dominator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dominator.swift; sourceTree = "<group>"; };
+		4ADEEA452469016900911CF1 /* Equileader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equileader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +217,11 @@
 				4A3566CB2461C38500616B2D /* MinAvgTwoSlice.swift */,
 				4A3566D12462D18600616B2D /* FindDistinctCount.swift */,
 				4A66EB302463C174006D6DE0 /* ArrayTriangle.swift */,
+				4A66EB60246573E7006D6DE0 /* Brackets.swift */,
+				4A66EB64246672CB006D6DE0 /* Nesting.swift */,
+				4ADEEA432468571600911CF1 /* Dominator.swift */,
+				4ADEEA452469016900911CF1 /* Equileader.swift */,
+				4A66EB6224666250006D6DE0 /* Fish.swift */,
 				4A3566CD2462763400616B2D /* PassingCar.swift */,
 				4A0B734F244427D0000C611A /* Main.storyboard */,
 				4A0B7352244427D2000C611A /* Assets.xcassets */,
@@ -433,13 +448,18 @@
 				4A3566B4245D891300616B2D /* MaxBinaryGap.swift in Sources */,
 				4A3566B8245DB2E200616B2D /* MissingInteger.swift in Sources */,
 				4A3566CE2462763400616B2D /* PassingCar.swift in Sources */,
+				4ADEEA442468571600911CF1 /* Dominator.swift in Sources */,
+				4ADEEA462469016900911CF1 /* Equileader.swift in Sources */,
 				4A0B734E244427D0000C611A /* ViewController.swift in Sources */,
 				4A3566D02462C45300616B2D /* TapeEquilibrium.swift in Sources */,
 				4A66EB312463C174006D6DE0 /* ArrayTriangle.swift in Sources */,
 				4A0B734A244427D0000C611A /* AppDelegate.swift in Sources */,
 				4A3566CC2461C38500616B2D /* MinAvgTwoSlice.swift in Sources */,
+				4A66EB61246573E7006D6DE0 /* Brackets.swift in Sources */,
 				4A3566BC245E886500616B2D /* PermCheck.swift in Sources */,
+				4A66EB65246672CB006D6DE0 /* Nesting.swift in Sources */,
 				4A3566C4245FCAC500616B2D /* GenomicRangeQuery.swift in Sources */,
+				4A66EB6324666250006D6DE0 /* Fish.swift in Sources */,
 				4A3566BE245E918D00616B2D /* CountDiv.swift in Sources */,
 				4A3566D22462D18600616B2D /* FindDistinctCount.swift in Sources */,
 				4A3566BA245E72F100616B2D /* MaxCounters.swift in Sources */,
