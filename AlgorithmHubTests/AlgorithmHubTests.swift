@@ -108,11 +108,11 @@ class AlgorithmHubTests: XCTestCase {
     
     func testEquileader() {
         var input = [4, 3, 4, 4, 4, 2]
-        let count = Equileader.solution(&input)
+        let count = Equileader.solution1(&input)
         XCTAssertTrue(count == 2)
         
         var input2 = [4, 4]
-        let count2 = Equileader.solution(&input2)
+        let count2 = Equileader.solution1(&input2)
         XCTAssertTrue(count2 == 1)
     }
     
